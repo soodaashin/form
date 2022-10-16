@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+.customer_details{
+}
+
+.container {
+  padding: 2px 16px;
+}
+.card {
+   box-shadow: 0  0 rgba(0,0,0,0);
+    width: 50%;
+    margin-left: 347px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+.form-group{
+	font-size: 21px;
+    margin-bottom: 14px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<meta charset="ISO-8859-1">
+<title>form</title>
+</head>
+<body>	
+
+
+<!---------------- card1 ---------------->
+<div class="card">
+<div class="container">
+
+<div class=customer_details>
+<h1><b>Customer Details: </b></h1>
+</div>
+
+</div>
+</div>
+<!---------- card1_end --------------->
+
+<!-------------- card2  ------------->
+
+<div class="card">
+<div class="container">
+<form  class="form" action="register" method="get">
+
+<div class="form-group">
+<label for="email">E-mail:</label><br>
+<input type="email" class="form-control" id="email" name ="email"  aria-describedby="emailHelp" placeholder="Enter email">
+<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>	
+</div>
+
+<div class="form-group">
+<label for="password">Password:</label><br>
+<input type="password" class="form-control" id="password"  name = "password" aria-describedby="emailHelp" placeholder="password">
+<small id="emailHelp" class="form-text text-muted">At least 8 characters</small>	
+</div>
+
+	
+<div class="form-row d-flex">
+    <div class="form-group col-md-5">
+      <label for="fname">First name:</label>
+      <input type="text" class="form-control" id="fname" name = "fname" placeholder="First name">
+    </div>
+    <div class="form-group col-md-5">
+      <label for="lname" style="margin-left: 77px;">Last name:</label>
+      <input type="text" class="form-control" id="lname" name = "lname" placeholder="lastname" style="margin-left:80px">
+    </div>
+  </div>
+  	
+  	
+  	<div class= "form-group">
+  	<label for="address">Address:</label><br>
+  	<input type="text" class="form-control" id="address" name = "address">
+  	
+  	<small  class="form-text text-muted">Street address</small>
+  	
+  	<input type="text" class="form-control" id="address">
+  	<small  class="form-text text-muted">Address line2</small>
+  	
+  	<div class ="form-row d-flex">
+  	<div class="form-group col-md-5">
+  	<input type="int" class="form-control" id="address" name="address">
+  	<small  class="form-text text-muted">Pin Code</small>
+  	</div>
+  	 <div class="form-group col-md-5">
+  	<input type="state" class="form-control" id="state" name = "state" style="margin-left:90px">
+  	<small  class="form-text text-muted" style="margin-left:90px">State/Province</small>
+  	</div>
+  	</div>
+  	
+   	</div>
+   	
+   	
+ <div class="form-group">
+   	
+ <label for="number">Phone Number:</label><br>
+ <input type="int" class="form-control" id="number" name = "number"  placeholder="(000)000-000">	
+ </div>
+
+
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Feedback:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name= "feedback"  rows="3"></textarea>
+  </div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+</div>
+</div>
+<!----------card2_end ------------>
+
+
+</body>
+</html>
